@@ -31,3 +31,20 @@ public class EvenOddCheck {
 def is_palindrome(s):
     return s == s[::-1]
 print(is_palindrome("madam")) # Output: True
+public class VariablesExample {
+    public static void main(String[] args) {
+        // Declare and initialize variables of different data types
+        int number = 10;
+        double decimal = 99.99;
+        boolean isTrue = true;
+        String text = "Java Snippets";
+        char character = 'A';
+
+        // Print the values
+        System.out.println("Integer variable: " + number);
+        System.out.println("Double variable: " + decimal);
+        System.out.println("Boolean variable: " + isTrue);
+        System.out.println("String variable: " + text);
+        System.out.println("Character variable: " + character);
+    }
+}
